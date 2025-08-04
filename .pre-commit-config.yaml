@@ -32,11 +32,6 @@ repos:
     -   id: mypy
         args: [--no-strict-optional, --ignore-missing-imports]
 
--   repo: https://github.com/jendrikseipp/vulture
-    rev: 'v2.3'  # or any later Vulture version
-    hooks:
-      - id: vulture
-
 -   repo: https://github.com/PyCQA/bandit
     rev: 1.7.9
     hooks:
